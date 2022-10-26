@@ -1,0 +1,47 @@
+{
+  "name": "mesto",
+  "private": true,
+  "version": "0.0.5",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test:build": "tsc && vite build && rmdir /s /q dist && echo No errors founded!",
+    "lint": "eslint ./src/**/* --fix",
+    "format": "prettier --write ./src/**/*",
+    "new:util": "hygen new util",
+    "new:hook": "hygen new hook",
+    "new:component": "hygen new component",
+    "new:service": "hygen new service",
+    "new:page": "hygen new page",
+    "new:slice": "hygen new slice"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-error-boundary": "^3.1.4",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "use-debounce": "^8.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.9",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "eslint": "^8.25.0",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "hygen": "^6.2.11",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "terser": "^5.15.1",
+    "typescript": "^4.6.3",
+    "vite": "^3.1.8"
+  }
+}

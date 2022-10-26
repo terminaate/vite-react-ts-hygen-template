@@ -1,0 +1,9 @@
+*.config.ts
+*.d.ts
+*.css
+*.scss
+*.svg
+*.png
+./src/assets
+.hygen/*/**
+.hygen

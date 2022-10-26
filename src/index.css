@@ -1,0 +1,48 @@
+/*@font-face {*/
+/*  font-family: 'Helvetica-Medium';*/
+/*  src: url('./assets/fonts/HelveticaNeueCyr-Medium.ttf');*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: 'Helvetica-Regular';*/
+/*  src: url('./assets/fonts/HelveticaNeueCyr-Roman.ttf');*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: 'Helvetica-Bold';*/
+/*  src: url('./assets/fonts/HelveticaNeueCyr-Bold.ttf');*/
+/*}*/
+
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-primary: #fff;
+  --text-primary: #000;
+  --font-primary: sans-serif;
+}
+
+body {
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+  font-family: var(--font-primary);
+  overflow-x: hidden;
+}
+
+button {
+  background: none;
+  color: var(--text-primary);
+  font-family: var(--font-primary);
+}
+
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
